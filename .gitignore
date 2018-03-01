@@ -1,0 +1,13 @@
+Thumbs.db
+.DS_Store
+.gradle
+build/
+out/
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+src/main/resources/init/tmdb_5000_movies.csv
