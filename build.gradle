@@ -83,6 +83,25 @@ tasks.withType(Test) {
 }
 
 assets {
-    minifyJs = true
-    minifyCss = true
+    minifyJs = false
+    minifyCss = false
+    enableSourceMaps = false
+    maxThreads = 2
+    excludes = [
+            '**/*.txt',
+            '**/*.map',
+            '**/*.properties',
+            '**/*.md',
+            '**/*.json',
+            '**/example[s]/**',
+            '**/docs/**',
+            '**/test/**',
+
+            // just bootstrap/dist/* ...
+            "bootstrap/fonts/**", "bootstrap/grunt/**", "bootstrap/js/**", "bootstrap/less/**", "bootstrap/nuget/**",
+            "bootstrap/Gemfile*", "bootstrap/Gruntfile*", "bootstrap/LICENSE*", "bootstrap/package*",
+
+            // just jquery/dist/*
+            "jquery/external/**", "jquery/src/**"
+    ]
 }

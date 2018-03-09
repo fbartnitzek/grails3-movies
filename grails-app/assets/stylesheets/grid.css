@@ -1,0 +1,19 @@
+/*
+*= require datatables/media/css/jquery.dataTables.css
+*= encoding UTF-8
+*= require_self
+*/
+
+/*fixes for smaller data-table with search in footer */
+
+.table > tfoot > tr > th {
+    width: 100%;
+    padding: 2px;
+}
+
+.table > tfoot > tr > th > input {
+    width: 100%;
+    border: 1px inset initial;
+    padding: 1px;
+}
+

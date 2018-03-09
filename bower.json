@@ -1,0 +1,24 @@
+{
+  "name": "movies",
+  "version": "0.0.1",
+  "authors": [
+    "frank_bartnitzek@web.de"
+  ],
+  "description": "movies web resources",
+  "main": "application.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.12.4",
+    "bootstrap": "3.3.7",
+    "datatables": "1.10.12",
+    "underscore": "~1.8.3"
+  }
+}
