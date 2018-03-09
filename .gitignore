@@ -11,3 +11,4 @@ out/
 .settings
 .classpath
 src/main/resources/init/tmdb_5000_movies.csv
+grails-app/assets/bower_components
